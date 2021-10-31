@@ -1,6 +1,6 @@
-int ledPIN = 8; // LED output
-int motionPin = 2; // PIR sensor pin
-int motionStatus = 0; // Motion detected status
+int ledPIN = 8; 
+int motionPin = 2; 
+int motionStatus = 0; 
 
 void setup() {
 pinMode(ledPin, OUTPUT);
@@ -12,12 +12,12 @@ void loop(){
 
 motionStatus = digitalRead(motionPin);
 
-if (motionStatus == HIGH) { // When motion is detected
-digitalWrite(ledPIN, HIGH); // turn LED ON
-Serial.println(“Motion detected.”); // Print motion detected message
+if (motionStatus == HIGH) { 
+digitalWrite(ledPIN, HIGH); 
+Serial.println(“Motion detected.”); 
 }
 else {
-digitalWrite(ledPIN, LOW); // Turn LED OFF if no motion is detected
-Serial.println(“All clear.”); // Print all clear message
+digitalWrite(ledPIN, LOW); 
+Serial.println(“All clear.”); 
 }
 }
