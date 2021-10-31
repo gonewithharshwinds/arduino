@@ -4,7 +4,6 @@
 #### Install Arduino IDE
 https://www.arduino.cc/en/software
 
-</br>
 
 #### BUY
 </br>
