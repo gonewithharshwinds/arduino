@@ -5,8 +5,8 @@
 https://www.arduino.cc/en/software
 
 
-## BUY
-Arduino Nano </br>
+## Purchase
+Arduino Uno (nano works as well, pin layout will change) </br>
 PIR Motion Sensor </br>
 Relay Module </br>
 Single Turn Potentiometer (10k Ohms) </br>
