@@ -6,7 +6,6 @@ https://www.arduino.cc/en/software
 
 
 #### BUY
-</br>
 Arduino Nano </br>
 PIR Motion Sensor </br>
 Relay Module </br>
